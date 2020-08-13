@@ -1,15 +1,15 @@
-package com.ydangleapps.gometrosampleapp
+package com.gometroapp.uma.sample
 
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import com.ydangleapps.gometro.client.GoMetro
-import com.ydangleapps.gometro.internal.TAG
+import com.gometroapp.uma.client.GoMetroUma
+import com.gometroapp.uma.internal.TAG
 import io.reactivex.disposables.CompositeDisposable
 
 class MainActivity : AppCompatActivity() {
 
-  private lateinit var goMetro: GoMetro
+  private lateinit var goMetroUma: GoMetroUma
 
   private val disposable = CompositeDisposable()
 
@@ -17,8 +17,8 @@ class MainActivity : AppCompatActivity() {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_main)
 
-    // get GoMetro instance
-    goMetro = GoMetro.shared
+    // get GoMetroUma instance
+    goMetroUma = GoMetroUma.shared
   }
 
   override fun onResume() {
@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
     // initialize the GoMetro SDK
     disposable.add(
-      goMetro.init(
+      goMetroUma.init(
         this,
         MainActivity::class.java.canonicalName ?: "",
         "this-is-a-token"
@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
     grantResults: IntArray
   ) {
     super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-    goMetro.onRequestPermissionsResult(
+    goMetroUma.onRequestPermissionsResult(
       requestCode,
       permissions,
       grantResults
