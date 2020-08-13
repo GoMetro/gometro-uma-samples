@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F83B0336D5A5233F1A1D99A /* Pods_GoMetro_SampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BC827E19A237F3ADE7122F /* Pods_GoMetro_SampleApp.framework */; };
+		D9CDEDE624640CD500AA8C88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDEDE524640CD500AA8C88 /* AppDelegate.swift */; };
+		D9CDEDE824640CD500AA8C88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDEDE724640CD500AA8C88 /* SceneDelegate.swift */; };
+		D9CDEDEA24640CD500AA8C88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDEDE924640CD500AA8C88 /* ContentView.swift */; };
+		D9CDEDEC24640CD600AA8C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9CDEDEB24640CD600AA8C88 /* Assets.xcassets */; };
+		D9CDEDEF24640CD600AA8C88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9CDEDEE24640CD600AA8C88 /* Preview Assets.xcassets */; };
+		D9CDEDF224640CD600AA8C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CDEDF024640CD600AA8C88 /* LaunchScreen.storyboard */; };
+		D9CDEDFD24640CD600AA8C88 /* GoMetro_SampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDEDFC24640CD600AA8C88 /* GoMetro_SampleAppTests.swift */; };
+		D9CDEE0824640CD600AA8C88 /* GoMetro_SampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDEE0724640CD600AA8C88 /* GoMetro_SampleAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9CDEDF924640CD600AA8C88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9CDEDDA24640CD500AA8C88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9CDEDE124640CD500AA8C88;
+			remoteInfo = "GoMetro-SampleApp";
+		};
+		D9CDEE0424640CD600AA8C88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9CDEDDA24640CD500AA8C88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9CDEDE124640CD500AA8C88;
+			remoteInfo = "GoMetro-SampleApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DFC120AE803B971E04CFDA8 /* Pods-GoMetro-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoMetro-SampleApp.release.xcconfig"; path = "Target Support Files/Pods-GoMetro-SampleApp/Pods-GoMetro-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		7D361923BBA796D72AD8D6EE /* Pods-GoMetro-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoMetro-SampleApp.debug.xcconfig"; path = "Target Support Files/Pods-GoMetro-SampleApp/Pods-GoMetro-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A5BC827E19A237F3ADE7122F /* Pods_GoMetro_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoMetro_SampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9CDEDE224640CD500AA8C88 /* GoMetro-SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoMetro-SampleApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9CDEDE524640CD500AA8C88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9CDEDE724640CD500AA8C88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D9CDEDE924640CD500AA8C88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9CDEDEB24640CD600AA8C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9CDEDEE24640CD600AA8C88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9CDEDF124640CD600AA8C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9CDEDF324640CD600AA8C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9CDEDF824640CD600AA8C88 /* GoMetro-SampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoMetro-SampleAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9CDEDFC24640CD600AA8C88 /* GoMetro_SampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoMetro_SampleAppTests.swift; sourceTree = "<group>"; };
+		D9CDEDFE24640CD600AA8C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9CDEE0324640CD600AA8C88 /* GoMetro-SampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoMetro-SampleAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9CDEE0724640CD600AA8C88 /* GoMetro_SampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoMetro_SampleAppUITests.swift; sourceTree = "<group>"; };
+		D9CDEE0924640CD600AA8C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9CDEDDF24640CD500AA8C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F83B0336D5A5233F1A1D99A /* Pods_GoMetro_SampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CDEDF524640CD600AA8C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CDEE0024640CD600AA8C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31015F97E8ADBFFE09FE674B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D361923BBA796D72AD8D6EE /* Pods-GoMetro-SampleApp.debug.xcconfig */,
+				5DFC120AE803B971E04CFDA8 /* Pods-GoMetro-SampleApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D9CDEDD924640CD500AA8C88 = {
+			isa = PBXGroup;
+			children = (
+				D9CDEDE424640CD500AA8C88 /* GoMetro-SampleApp */,
+				D9CDEDFB24640CD600AA8C88 /* GoMetro-SampleAppTests */,
+				D9CDEE0624640CD600AA8C88 /* GoMetro-SampleAppUITests */,
+				D9CDEDE324640CD500AA8C88 /* Products */,
+				D9CDEE1E24641B7A00AA8C88 /* Frameworks */,
+				31015F97E8ADBFFE09FE674B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D9CDEDE324640CD500AA8C88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9CDEDE224640CD500AA8C88 /* GoMetro-SampleApp.app */,
+				D9CDEDF824640CD600AA8C88 /* GoMetro-SampleAppTests.xctest */,
+				D9CDEE0324640CD600AA8C88 /* GoMetro-SampleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9CDEDE424640CD500AA8C88 /* GoMetro-SampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				D9CDEDE524640CD500AA8C88 /* AppDelegate.swift */,
+				D9CDEDE724640CD500AA8C88 /* SceneDelegate.swift */,
+				D9CDEDE924640CD500AA8C88 /* ContentView.swift */,
+				D9CDEDEB24640CD600AA8C88 /* Assets.xcassets */,
+				D9CDEDF024640CD600AA8C88 /* LaunchScreen.storyboard */,
+				D9CDEDF324640CD600AA8C88 /* Info.plist */,
+				D9CDEDED24640CD600AA8C88 /* Preview Content */,
+			);
+			path = "GoMetro-SampleApp";
+			sourceTree = "<group>";
+		};
+		D9CDEDED24640CD600AA8C88 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9CDEDEE24640CD600AA8C88 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9CDEDFB24640CD600AA8C88 /* GoMetro-SampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9CDEDFC24640CD600AA8C88 /* GoMetro_SampleAppTests.swift */,
+				D9CDEDFE24640CD600AA8C88 /* Info.plist */,
+			);
+			path = "GoMetro-SampleAppTests";
+			sourceTree = "<group>";
+		};
+		D9CDEE0624640CD600AA8C88 /* GoMetro-SampleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9CDEE0724640CD600AA8C88 /* GoMetro_SampleAppUITests.swift */,
+				D9CDEE0924640CD600AA8C88 /* Info.plist */,
+			);
+			path = "GoMetro-SampleAppUITests";
+			sourceTree = "<group>";
+		};
+		D9CDEE1E24641B7A00AA8C88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5BC827E19A237F3ADE7122F /* Pods_GoMetro_SampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9CDEDE124640CD500AA8C88 /* GoMetro-SampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9CDEE0C24640CD600AA8C88 /* Build configuration list for PBXNativeTarget "GoMetro-SampleApp" */;
+			buildPhases = (
+				DCB0CE80EF10020538EEF7BE /* [CP] Check Pods Manifest.lock */,
+				D9CDEDDE24640CD500AA8C88 /* Sources */,
+				D9CDEDDF24640CD500AA8C88 /* Frameworks */,
+				D9CDEDE024640CD500AA8C88 /* Resources */,
+				6C7AC6B203315D43BF019712 /* [CP] Embed Pods Frameworks */,
+				586FE8F8A3246249FA424173 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoMetro-SampleApp";
+			productName = "GoMetro-SampleApp";
+			productReference = D9CDEDE224640CD500AA8C88 /* GoMetro-SampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9CDEDF724640CD600AA8C88 /* GoMetro-SampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9CDEE0F24640CD600AA8C88 /* Build configuration list for PBXNativeTarget "GoMetro-SampleAppTests" */;
+			buildPhases = (
+				D9CDEDF424640CD600AA8C88 /* Sources */,
+				D9CDEDF524640CD600AA8C88 /* Frameworks */,
+				D9CDEDF624640CD600AA8C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9CDEDFA24640CD600AA8C88 /* PBXTargetDependency */,
+			);
+			name = "GoMetro-SampleAppTests";
+			productName = "GoMetro-SampleAppTests";
+			productReference = D9CDEDF824640CD600AA8C88 /* GoMetro-SampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9CDEE0224640CD600AA8C88 /* GoMetro-SampleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9CDEE1224640CD600AA8C88 /* Build configuration list for PBXNativeTarget "GoMetro-SampleAppUITests" */;
+			buildPhases = (
+				D9CDEDFF24640CD600AA8C88 /* Sources */,
+				D9CDEE0024640CD600AA8C88 /* Frameworks */,
+				D9CDEE0124640CD600AA8C88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9CDEE0524640CD600AA8C88 /* PBXTargetDependency */,
+			);
+			name = "GoMetro-SampleAppUITests";
+			productName = "GoMetro-SampleAppUITests";
+			productReference = D9CDEE0324640CD600AA8C88 /* GoMetro-SampleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9CDEDDA24640CD500AA8C88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Malcolmn Roberts";
+				TargetAttributes = {
+					D9CDEDE124640CD500AA8C88 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					D9CDEDF724640CD600AA8C88 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = D9CDEDE124640CD500AA8C88;
+					};
+					D9CDEE0224640CD600AA8C88 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = D9CDEDE124640CD500AA8C88;
+					};
+				};
+			};
+			buildConfigurationList = D9CDEDDD24640CD500AA8C88 /* Build configuration list for PBXProject "GoMetro-SampleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9CDEDD924640CD500AA8C88;
+			productRefGroup = D9CDEDE324640CD500AA8C88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9CDEDE124640CD500AA8C88 /* GoMetro-SampleApp */,
+				D9CDEDF724640CD600AA8C88 /* GoMetro-SampleAppTests */,
+				D9CDEE0224640CD600AA8C88 /* GoMetro-SampleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9CDEDE024640CD500AA8C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CDEDF224640CD600AA8C88 /* LaunchScreen.storyboard in Resources */,
+				D9CDEDEF24640CD600AA8C88 /* Preview Assets.xcassets in Resources */,
+				D9CDEDEC24640CD600AA8C88 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CDEDF624640CD600AA8C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CDEE0124640CD600AA8C88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		586FE8F8A3246249FA424173 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoMetro-SampleApp/Pods-GoMetro-SampleApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoMetro-SampleApp/Pods-GoMetro-SampleApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoMetro-SampleApp/Pods-GoMetro-SampleApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C7AC6B203315D43BF019712 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoMetro-SampleApp/Pods-GoMetro-SampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoMetro-SampleApp/Pods-GoMetro-SampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoMetro-SampleApp/Pods-GoMetro-SampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCB0CE80EF10020538EEF7BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoMetro-SampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9CDEDDE24640CD500AA8C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CDEDE624640CD500AA8C88 /* AppDelegate.swift in Sources */,
+				D9CDEDE824640CD500AA8C88 /* SceneDelegate.swift in Sources */,
+				D9CDEDEA24640CD500AA8C88 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CDEDF424640CD600AA8C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CDEDFD24640CD600AA8C88 /* GoMetro_SampleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CDEDFF24640CD600AA8C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CDEE0824640CD600AA8C88 /* GoMetro_SampleAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9CDEDFA24640CD600AA8C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9CDEDE124640CD500AA8C88 /* GoMetro-SampleApp */;
+			targetProxy = D9CDEDF924640CD600AA8C88 /* PBXContainerItemProxy */;
+		};
+		D9CDEE0524640CD600AA8C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9CDEDE124640CD500AA8C88 /* GoMetro-SampleApp */;
+			targetProxy = D9CDEE0424640CD600AA8C88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9CDEDF024640CD600AA8C88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9CDEDF124640CD600AA8C88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9CDEE0A24640CD600AA8C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9CDEE0B24640CD600AA8C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9CDEE0D24640CD600AA8C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D361923BBA796D72AD8D6EE /* Pods-GoMetro-SampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GoMetro-SampleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5QS4R3TC26;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "GoMetro-SampleApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gometro.CocoapodSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9CDEE0E24640CD600AA8C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DFC120AE803B971E04CFDA8 /* Pods-GoMetro-SampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GoMetro-SampleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5QS4R3TC26;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "GoMetro-SampleApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gometro.CocoapodSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9CDEE1024640CD600AA8C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SX768C9EWK;
+				INFOPLIST_FILE = "GoMetro-SampleAppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Malcolmn-Roberts.GoMetro-SampleAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoMetro-SampleApp.app/GoMetro-SampleApp";
+			};
+			name = Debug;
+		};
+		D9CDEE1124640CD600AA8C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SX768C9EWK;
+				INFOPLIST_FILE = "GoMetro-SampleAppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Malcolmn-Roberts.GoMetro-SampleAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoMetro-SampleApp.app/GoMetro-SampleApp";
+			};
+			name = Release;
+		};
+		D9CDEE1324640CD600AA8C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SX768C9EWK;
+				INFOPLIST_FILE = "GoMetro-SampleAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Malcolmn-Roberts.GoMetro-SampleAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GoMetro-SampleApp";
+			};
+			name = Debug;
+		};
+		D9CDEE1424640CD600AA8C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SX768C9EWK;
+				INFOPLIST_FILE = "GoMetro-SampleAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Malcolmn-Roberts.GoMetro-SampleAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GoMetro-SampleApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9CDEDDD24640CD500AA8C88 /* Build configuration list for PBXProject "GoMetro-SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CDEE0A24640CD600AA8C88 /* Debug */,
+				D9CDEE0B24640CD600AA8C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9CDEE0C24640CD600AA8C88 /* Build configuration list for PBXNativeTarget "GoMetro-SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CDEE0D24640CD600AA8C88 /* Debug */,
+				D9CDEE0E24640CD600AA8C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9CDEE0F24640CD600AA8C88 /* Build configuration list for PBXNativeTarget "GoMetro-SampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CDEE1024640CD600AA8C88 /* Debug */,
+				D9CDEE1124640CD600AA8C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9CDEE1224640CD600AA8C88 /* Build configuration list for PBXNativeTarget "GoMetro-SampleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CDEE1324640CD600AA8C88 /* Debug */,
+				D9CDEE1424640CD600AA8C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9CDEDDA24640CD500AA8C88 /* Project object */;
+}

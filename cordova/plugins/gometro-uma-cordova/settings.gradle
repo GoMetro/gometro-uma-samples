@@ -1,0 +1,3 @@
+rootProject.name="gometro-uma-cordova"
+
+include ":platforms:android"

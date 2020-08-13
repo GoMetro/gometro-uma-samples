@@ -1,0 +1,40 @@
+{
+  "_from": "gometro-uma-cordova@0.0.4",
+  "_id": "gometro-uma-cordova@0.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-40yURZYtvGkuY7wRzJgIjQVYwzDBS1b5xz49IbahXj5BE4sAJYFFzdOx0cw4j6a/cwSrAsEMnUQurY4KDcPrQw==",
+  "_location": "/gometro-uma-cordova",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "gometro-uma-cordova@0.0.4",
+    "name": "gometro-uma-cordova",
+    "escapedName": "gometro-uma-cordova",
+    "rawSpec": "0.0.4",
+    "saveSpec": null,
+    "fetchSpec": "0.0.4"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/gometro-uma-cordova/-/gometro-uma-cordova-0.0.4.tgz",
+  "_shasum": "b6cc4bece9c621e24a29170f753123356f196013",
+  "_spec": "gometro-uma-cordova@0.0.4",
+  "_where": "C:\\Users\\Administrator\\Projects\\gometro-uma-samples\\cordova",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "",
+  "devDependencies": {
+    "@types/cordova": "0.0.34"
+  },
+  "license": "MIT",
+  "main": "src/js/gometro-uma.js",
+  "name": "gometro-uma-cordova",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.4"
+}

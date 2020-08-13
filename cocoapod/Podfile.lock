@@ -1,0 +1,40 @@
+PODS:
+  - GoMetro (0.1.0):
+    - PromiseKit (~> 6.8)
+    - PromiseKit/Foundation (~> 6.8)
+    - surveymonkey-ios-sdk (~> 2.0)
+    - SwiftyJSON (~> 4.0)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - surveymonkey-ios-sdk (2.0.6)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - GoMetro (from `../../`)
+
+SPEC REPOS:
+  trunk:
+    - PromiseKit
+    - surveymonkey-ios-sdk
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  GoMetro:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  GoMetro: 77f1a2bd0032a9ea8f005aadcb4b595810507d30
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  surveymonkey-ios-sdk: ffb3de59b9950ef945e19c3b3ceae6930fbd8deb
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: be97d8fb32fdbbe3eac4062386d1792487696422
+
+COCOAPODS: 1.9.3

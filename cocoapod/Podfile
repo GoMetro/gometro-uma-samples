@@ -1,0 +1,8 @@
+use_frameworks!
+
+target 'GoMetro-SampleApp' do
+
+  # Our pod
+  pod 'GoMetro', :path => '../../'
+
+end
