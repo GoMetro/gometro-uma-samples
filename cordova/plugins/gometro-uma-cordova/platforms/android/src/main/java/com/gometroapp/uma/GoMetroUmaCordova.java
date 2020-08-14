@@ -1,4 +1,4 @@
-package com.gometro.uma;
+package com.gometroapp.uma;
 
 import android.app.Activity;
 import android.content.Context;

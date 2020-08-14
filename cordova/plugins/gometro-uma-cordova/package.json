@@ -1,30 +1,33 @@
 {
-  "_from": "gometro-uma-cordova@0.0.4",
-  "_id": "gometro-uma-cordova@0.0.4",
+  "_from": "gometro-uma-cordova@0.0.5",
+  "_id": "gometro-uma-cordova@0.0.5",
   "_inBundle": false,
-  "_integrity": "sha512-40yURZYtvGkuY7wRzJgIjQVYwzDBS1b5xz49IbahXj5BE4sAJYFFzdOx0cw4j6a/cwSrAsEMnUQurY4KDcPrQw==",
+  "_integrity": "sha512-eUaPv0w21hpkcUT3YxZ5Bfi0MDO2kPMjrz4nWHJmrAua2b5h16oCu34vhu4fiPa99FAao9ZQZrw2ZMNnqUB4lw==",
   "_location": "/gometro-uma-cordova",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "gometro-uma-cordova@0.0.4",
+    "raw": "gometro-uma-cordova@0.0.5",
     "name": "gometro-uma-cordova",
     "escapedName": "gometro-uma-cordova",
-    "rawSpec": "0.0.4",
+    "rawSpec": "0.0.5",
     "saveSpec": null,
-    "fetchSpec": "0.0.4"
+    "fetchSpec": "0.0.5"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/gometro-uma-cordova/-/gometro-uma-cordova-0.0.4.tgz",
-  "_shasum": "b6cc4bece9c621e24a29170f753123356f196013",
-  "_spec": "gometro-uma-cordova@0.0.4",
+  "_resolved": "https://registry.npmjs.org/gometro-uma-cordova/-/gometro-uma-cordova-0.0.5.tgz",
+  "_shasum": "33077e330c7bbed7f97047acb331445f35da7dd9",
+  "_spec": "gometro-uma-cordova@0.0.5",
   "_where": "C:\\Users\\Administrator\\Projects\\gometro-uma-samples\\cordova",
   "author": "",
   "bundleDependencies": false,
+  "dependencies": {
+    "async": "^3.2.0"
+  },
   "deprecated": false,
   "description": "",
   "devDependencies": {
@@ -36,5 +39,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.0.4"
+  "version": "0.0.5"
 }

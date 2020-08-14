@@ -8,7 +8,7 @@
 
 import UIKit
 import SwiftUI
-import GoMetro
+import GoMetroUma
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -54,7 +54,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to undo the changes made on entering the background.
         
         // Notify SDK
-//        GoMetro.shared.requestPermissions(viewController: window!.rootViewController!)
+//        GoMetroUma.shared.requestPermissions(viewController: window!.rootViewController!)
         
     }
 

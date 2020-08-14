@@ -12,9 +12,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven {
-            url "https://developer.gometroapp.com/nexus/repository/maven-public"
-        }
+        maven { url "https://developer.gometroapp.com/nexus/repository/maven-public" }
     }
 }
 

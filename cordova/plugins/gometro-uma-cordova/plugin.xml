@@ -29,7 +29,7 @@
         <hook src="platforms/android/src/main/javascript/useInternalRepo.js"
               type="before_build"/>
 
-        <source-file src="platforms/android/src/main/java/com/gometro/uma/GoMetroUmaCordova.java"
+        <source-file src="platforms/android/src/main/java/com/gometroapp/uma/GoMetroUmaCordova.java"
                      target-dir="src/com/gometro/uma/"/>
 
         <framework src="com.gometro.uma:gometro-uma-android:1.0.2"/>

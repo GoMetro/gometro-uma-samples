@@ -10,7 +10,7 @@
   "gometro-uma-cordova": {
     "source": {
       "type": "registry",
-      "id": "gometro-uma-cordova@0.0.4"
+      "id": "gometro-uma-cordova@0.0.5"
     },
     "is_top_level": true,
     "variables": {}
