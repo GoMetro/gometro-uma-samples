@@ -19,7 +19,7 @@
 // GENERATED FILE! DO NOT EDIT!
 
 buildscript {
-    repositories {maven { url "https://developer.gometroapp.com/nexus/repository/maven-public" }
+    repositories {
         google()
         jcenter()
     }

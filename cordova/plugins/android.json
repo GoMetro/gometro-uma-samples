@@ -8,10 +8,7 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.gometro.uma.samples.cordova"
-    },
-    "gometro-uma-cordova": {
-      "PACKAGE_NAME": "com.gometro.uma.samples.cordova"
+      "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },
   "dependent_plugins": {}

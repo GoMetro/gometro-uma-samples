@@ -1,5 +1,5 @@
 {
-  "appId": "com.gometro.uma.samples",
+  "appId": "com.gometroapp.uma.samples",
   "appName": "ionic-capacitor",
   "bundledWebRuntime": false,
   "npmClient": "npm",

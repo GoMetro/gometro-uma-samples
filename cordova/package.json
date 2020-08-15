@@ -1,6 +1,6 @@
 {
-  "name": "com.gometro.uma.samples.cordova",
-  "displayName": "cordova",
+  "name": "io.cordova.hellocordova",
+  "displayName": "HelloCordova",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
@@ -12,23 +12,18 @@
   ],
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^9.0.0",
+    "cordova-ios": "^6.1.0",
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {},
-      "gometro-uma-cordova": {}
+      "cordova-plugin-whitelist": {}
     },
     "platforms": [
+      "ios",
       "android"
     ]
-  },
-  "dependencies": {
-    "gometro-uma-cordova": "0.0.5"
-  },
-  "devDependencies": {
-    "compare-func": "^2.0.0",
-    "cordova": "^10.0.0",
-    "cordova-plugin-whitelist": "^1.3.4",
-    "properties-parser": "^0.3.1",
-    "shelljs": "^0.8.4"
   }
 }

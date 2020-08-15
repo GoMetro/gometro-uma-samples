@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         // Override point for customization after application launch.
-        GoMetroUma.shared.initialise(token: "...")
+        GoMetroUma.shared.initialise(token: "KIMo3yKelQMzhPNrzXeylp1H9GgDj2c5VnsfdoscDiJp3u7QftTxGJaRrr6HaUUxx2SAXHaaDi7vXdcs")
         
         // Done
         return true
