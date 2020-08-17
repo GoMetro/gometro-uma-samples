@@ -3,6 +3,6 @@ use_frameworks!
 target 'GoMetro-SampleApp' do
 
   # Our pod
-  pod 'GoMetroUma', :git => 'https://github.com/GoMetro/gometro-uma-ios.git', :tag => '1.1.1'
+  pod 'GoMetroUma', :git => 'https://github.com/GoMetro/gometro-uma-ios.git', :tag => '1.1.5'
 
 end
