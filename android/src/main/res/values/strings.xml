@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">GoMetro-sample-app</string>
+    <string name="app_name">GoMetro UMA Sample</string>
+    <string name="share_logs">Share Logs</string>
 </resources>
