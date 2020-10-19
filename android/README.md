@@ -1,4 +1,4 @@
-## GoMetro Tracking SDK for Android Sample
+## GoMetro UMA SDK for Android Sample
 
 ### Build File
 
