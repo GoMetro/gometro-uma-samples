@@ -1,4 +1,4 @@
-## GoMetro Tracking SDK for Android Sample
+## GoMetro UMA SDK for Android Sample
 
 ### Build File
 
@@ -54,20 +54,19 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onResume() {
-        super.onResume();
-
+        super.onResume();        
+        ...        
         GoMetroUma.initialise(
             this,
             <gometro_uma_username>,
             <gometro_uma_password>
         );
-
-        LoggerFactory.setLogger(new AndroidLogger(true, "GoMetroUma"));
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        ...
         GoMetroUma.onActivityResult(requestCode, resultCode, data);
     }
 }
@@ -88,8 +87,14 @@ import com.gometroapp.mobile.core.logging.LoggerFactory;
 public class MainActivity extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onResume() {
         ...
+        GoMetroUma.initialise(
+            this,
+            <gometro_uma_username>,
+            <gometro_uma_password>
+        );
+        
         LoggerFactory.setLogger(new AndroidLogger(true, "GoMetroUma"));
         ...
     }
