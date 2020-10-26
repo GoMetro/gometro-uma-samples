@@ -3,7 +3,7 @@ document.addEventListener('deviceready', onDeviceReady, false);
 function onDeviceReady() {
 
     const GoMetroUma = cordova.require('gometro-uma-cordova.GoMetroUma');
-    GoMetroUma.init("kLCHf0LqzG8LVaeEoA3PsqpgEmivYVDycoyGpw86q7NfwlUgxnlfkssVkLxgkf485VMXUYBtmxm1TLh9");
+    GoMetroUma.init("gometro-android-idj39sme", "Uh0JcpyfE62ePx2asHUwoJx1As1TQy5k");
 
     console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
     document.getElementById('deviceready').classList.add('ready');
