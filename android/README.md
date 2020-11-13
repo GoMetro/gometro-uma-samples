@@ -15,7 +15,7 @@ dependencies {
     ...
 
     implementation "com.gometroapp.uma:gometro-uma-android:3.0.6"
-    implementation "com.gometroapp.tracking:gometro-tracking-android:1.0.20"
+    implementation "com.gometroapp.tracking:gometro-tracking-android:1.0.22"
     implementation "com.surveymonkey:surveymonkey-android-sdk:2.0.0"
     
     ...
