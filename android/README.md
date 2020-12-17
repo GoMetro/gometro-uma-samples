@@ -14,8 +14,8 @@ repositories {
 dependencies {
     ...
 
-    implementation "com.gometroapp.uma:gometro-uma-android:3.0.6"
-    implementation "com.gometroapp.tracking:gometro-tracking-android:1.0.23"
+    implementation "com.gometroapp.uma:gometro-uma-android:3.0.9"
+    implementation "com.gometroapp.tracking:gometro-tracking-android:1.0.25"
     implementation "com.surveymonkey:surveymonkey-android-sdk:2.0.0"
     
     ...
@@ -35,6 +35,7 @@ dependencies {
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     ...
 
