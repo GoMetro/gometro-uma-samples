@@ -24,14 +24,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 
-        String DeviceID = Settings.Secure.getString(getContentResolver(),
+        String deviceID = Settings.Secure.getString(getContentResolver(),
             Settings.Secure.ANDROID_ID);
 
         GoMetroUma.initialise(
             this,
             BuildConfig.GOMETRO_UMA_USERNAME,
             BuildConfig.GOMETRO_UMA_PASSWORD,
-            DeviceID
+            deviceID
         );
 
         LoggerFactory.setLogger(new AndroidLogger(true, "GoMetroUma"));
