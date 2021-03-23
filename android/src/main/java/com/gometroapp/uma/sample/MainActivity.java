@@ -10,6 +10,8 @@ import com.gometroapp.mobile.android.logging.AndroidLogger;
 import com.gometroapp.mobile.core.logging.LoggerFactory;
 import com.gometroapp.uma.GoMetroUma;
 
+import android.provider.Settings;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -22,10 +24,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 
+        String deviceID = Settings.Secure.getString(getContentResolver(),
+            Settings.Secure.ANDROID_ID);
+
         GoMetroUma.initialise(
             this,
             BuildConfig.GOMETRO_UMA_USERNAME,
-            BuildConfig.GOMETRO_UMA_PASSWORD
+            BuildConfig.GOMETRO_UMA_PASSWORD,
+            deviceID
         );
 
         LoggerFactory.setLogger(new AndroidLogger(true, "GoMetroUma"));
